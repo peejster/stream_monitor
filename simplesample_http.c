@@ -13,7 +13,7 @@ and removing calls to _DoWork will yield the same results. */
 
 #include "AzureIoT.h"
 
-static const char* connectionString = "HostName=streammonitoring.azure-devices.net;DeviceId=lyons_creek_1;SharedAccessKey=yBP2lGUEI+9nqSHT+iyrPQ==";
+static const char* connectionString = "HostName=<your IoT Hub>.azure-devices.net;DeviceId=<your device id>;SharedAccessKey=<your access key>";
 
 // switch to determine whether or not to send air temp data to cloud
 bool sendAirTemp = true;
