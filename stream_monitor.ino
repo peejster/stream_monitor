@@ -10,8 +10,8 @@ const int tempPin = 2;           // temp sensors are connected to pin 2
 OneWire ds(tempPin);             // create an instance of the temp sensors
 int temperature[sensorCount];    // store the temp reading from each sensor
 
-char ssid[] = "CREEKSIDE-2.4_2GEXT";   // your network SSID (name)
-char pass[] = "GrandSnapper";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "<your ssid here>";   // your network SSID (name)
+char pass[] = "<your network password here>";    // your network password (use for WPA, or use as key for WEP)
 
 time_t epochTime;                // get the current time
 char* currentTimeString;         // store the time as a string
